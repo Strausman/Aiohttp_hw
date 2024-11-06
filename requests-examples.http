@@ -1,0 +1,15 @@
+POST http://127.0.0.1:8080/ads/
+Content-Type: application/json
+
+{
+        "user": "name_1",
+        "heading": "sale",
+        "description": "will sell the garage"
+}
+
+###
+GET http://127.0.0.1:8080/ads/
+###
+GET http://127.0.0.1:8080/ads/25/
+###
+DELETE http://127.0.0.1:8080/ads/39/
